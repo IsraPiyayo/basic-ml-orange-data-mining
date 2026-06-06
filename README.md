@@ -1,44 +1,50 @@
-# 🚀 AIoT Workshop: From Data Foundations to Hardware Deployment (2 Days)
+# AI & Machine Learning Workshop: From Raw Data to Model Insights
 
-ยินดีต้อนรับเข้าสู่คลังเนื้อหาหลักสูตรการเรียนการสอน **AIoT (Artificial Intelligence + Internet of Things)** ระยะเวลา 2 วันเต็ม ที่จะพาทุกคนไปเรียนรู้ตั้งแต่พื้นฐานข้อมูล การสร้างโมเดล Machine Learning แบบ No-code ไปจนถึงการเขียนโค้ดสั่งการฮาร์ดแวร์จริงผ่านระบบคลาวด์
-
----
-
-## 📅 ตารางการเรียนรู้ (Course Syllabus)
-
-### 🔵 DAY 1: Data Foundations & Machine Learning (No-Code)
-เน้นการทำความเข้าใจข้อมูลและการสร้างโมเดลทำนายเบื้องต้นผ่านโปรแกรม **Orange Data Mining**
-
-* **Intro to AI, ML, DL & Data Flow**: เรียนรู้ความต่างของปัญญาประดิษฐ์แต่ละระดับ และความสำคัญของท่อน้ำข้อมูล (Data Pipeline)
-* **Orange Data Mining**: แนะนำและฝึกใช้งานเครื่องมือ Visual Programming แบบลากวาง
-* **Data Preprocessing**: การตรวจสอบ ทำความสะอาดข้อมูลดิบ จัดการค่าว่าง และตัดข้อมูลแปลกปลอม (Outliers)
-* **Linear Regression**: สร้างแบบจำลองสมการเพื่อทำนายผลลัพธ์ที่เป็นตัวเลขต่อเนื่อง (เช่น การทำนายราคา)
-* **Classification Model**: การสร้างแบบจำลองเพื่อตัดแบ่งและจำแนกกลุ่มข้อมูล (เช่น การแยกประเภท/เกรด หรือความเสี่ยงโรคหัวใจ)
-
-### 🟢 DAY 2: Image Processing & IoT Hardware Deployment
-เน้นการประมวลผลภาพถ่าย การเขียนโค้ด Python บน Cloud และการควบคุมอุปกรณ์ไฟฟ้าผ่านระบบ IoT
-
-* **Image Processing & Embedding**: กระบวนการจัดการภาพถ่าย และการใช้ Deep Learning เปลี่ยนภาพให้เป็นรหัสตัวเลขที่ AI เข้าใจ
-* **Data Annotation Workshop**: ฝึกฝนการทำเครื่องหมายและแปะป้ายระบุตำแหน่งวัตถุบนภาพถ่าย (Object Detection / Labelling)
-* **Image Classification**: การสร้างโมเดลจำแนกประเภทรูปภาพและสัญลักษณ์มือ
-* **COLAB to Broker Integration**: การสั่งรันโมเดลเว็บแคมบน **Google Colab** และเขียนโค้ด Python เพื่อส่งคำสั่งรหัส (เช่น `1` หรือ `2`) ไปยัง **MQTT Broker**
-* **IoT Hardware Deployment (ESP32)**: การเขียนโค้ดด้วย Arduino IDE ให้บอร์ด **ESP32** รับค่าจาก MQTT Broker มาควบคุมอุปกรณ์ไฟฟ้า/ไฟ LED ในโลกจริง
+คลังเก็บเนื้อหา สื่อการเรียนการสอน และซอร์สโค้ดสำหรับงานเวิร์กชอปปูพื้นฐาน **Artificial Intelligence (AI) และ Machine Learning (ML)** หลักสูตรเร่งรัดระยะเวลา 2 วัน เน้นการลงมือทำจริงแบบ Hands-on เหมาะสำหรับนักศึกษา บุคคลทั่วไป หรือผู้สอนที่ต้องการนำไปปรับใช้ในการเรียนการสอนระดับมหาวิทยาลัย
 
 ---
 
-## 🛠️ การเตรียมตัวก่อนเริ่มเรียน (Prerequisites & Installation)
+## 📅 โครงสร้างหลักสูตร (Course Outline)
 
-เพื่อให้การทำ Workshop เป็นไปอย่างราบรื่น กรุณาดาวน์โหลดและติดตั้งโปรแกรมต่อไปนี้ล่วงหน้า:
+### 🧩 DAY 1: Intro to AI, ML, DL & Data Flow
+เน้นความเข้าใจภาพรวม ท่อน้ำข้อมูล และการสร้างโมเดลทำนายผลลัพธ์จากข้อมูลตัวเลข/ประเภท
+* **Intro to AI, ML, DL & Data Flow:** เรียนรู้ความต่างของปัญญาประดิษฐ์แต่ละระดับ และความสำคัญของ Pipeline ข้อมูล
+* **Orange Data Mining:** แนะนำการใช้งานเครื่องมือ Visual Programming แบบลากวางเบื้องต้น (No-code)
+* **Data Preprocessing:** การตรวจสอบ ทำความสะอาดข้อมูลดิบ และการจัดการข้อมูลแปลกปลอม (Outliers)
+* **Linear Regression Model:** การสร้างแบบจำลองสมการเพื่อทำนายผลลัพธ์ที่เป็นตัวเลขต่อเนื่อง (เช่น การทำนายราคา)
+* **Classification Model:** การสร้างแบบจำลองเพื่อตัดแบ่งและจำแนกกลุ่มข้อมูล (เช่น การแยกประเภท/เกรด)
 
-1.  **Orange Data Mining**: [ดาวน์โหลดที่นี่](https://orangedatamining.com/)
-    * *หมายเหตุ:* ใน Day 2 จะมีการใช้ Add-on ชื่อ `Orange3-ImageAnalytics` ให้ทำการติดตั้งผ่านเมนู `Options > Add-ons` ในโปรแกรม
-2.  **Arduino IDE**: [ดาวน์โหลดที่นี่](https://www.arduino.cc/en/software) (สำหรับเขียนโค้ดลงบอร์ด ESP32)
-    * ติดตั้งบอร์ดประเภท ESP32 ใน Boards Manager
-    * ติดตั้งคลังไลบรารีสำหรับการเชื่อมต่อ MQTT (เช่น `PubSubClient`)
-3.  **บัญชีผู้ใช้งานสำหรับระบบคลาวด์**:
-    * **Google Account** (สำหรับใช้งาน Google Colab)
-    * **GitHub Account** (สำหรับดาวน์โหลดและส่งงาน)
+### 👁️ DAY 2: Image Processing & IoT Integration
+เน้นกระบวนการจัดการข้อมูลรูปภาพ คอมพิวเตอร์วิทัศน์ และการเชื่อมต่อระบบเข้ากับฮาร์ดแวร์จริง
+* **Image Processing & Embedding:** กระบวนการจัดการภาพถ่าย และการเปลี่ยนภาพเป็นรหัสตัวเลขด้วย Deep Learning
+* **Data Annotation Workshop:** ฝึกฝนการทำเครื่องหมายและแปะป้ายระบุตำแหน่งวัตถุบนภาพถ่าย (Labeling)
+* **Image Classification:** การเทรนโมเดลจำแนกประเภทรูปภาพและสัญลักษณ์มือด้วย Orange
+* **COLAB to Broker Integration:** การรันโมเดลเว็บแคมบน Google Colab และใช้ Python ส่งคำสั่งควบคุมไปยัง MQTT Broker
+* **IoT Hardware Deployment (ESP32):** การเขียนโค้ดให้บอร์ด ESP32 รับค่าจาก Broker มาสั่งเปิด-ปิด อุปกรณ์ไฟฟ้าในโลกจริง
 
 ---
 
-## 🏗️ ภาพรวมระบบการเชื่อมต่อใน DAY 2 (System Architecture)
+## 🛠️ เครื่องมือที่ใช้ในเวิร์กชอป (Prerequisites)
+
+เพื่อให้การเรียนการสอนเป็นไปอย่างราบรื่น ผู้เข้าเรียนควรเตรียมตัวและติดตั้งเครื่องมือดังต่อไปนี้:
+1. **Orange Data Mining (v3.x ขึ้นไป):** [ดาวน์โหลดที่นี่](https://orangedatamining.com/)
+   * *หมายเหตุ:* ใน Day 2 จะต้องติดตั้ง Add-on เสริมชื่อ `Orange3-ImageAnalytics` ผ่านเมนู `Options > Add-ons`
+2. **Google Account:** สำหรับใช้งาน Google Colab ในการเขียนและรันโค้ด Python ผ่านระบบคลาวด์
+3. **MQTT Broker:** (เช่น HiveMQ หรือ Netpie) สำหรับใช้เป็นตัวกลางส่งผ่านข้อมูลระหว่างโมเดล AI และอุปกรณ์ IoT
+4. **Arduino IDE / VS Code:** สำหรับผู้ที่สนใจทดสอบร่วมกับบอร์ดไมโครคอนโทรลเลอร์ ESP32
+
+---
+
+## 📁 โครงสร้างคลังเก็บข้อมูล (Repository Structure)
+
+```text
+├── DAY_1_Data_Foundations/
+│   ├── datasets/               # ชุดข้อมูลตัวอย่าง (CSV) เช่น สำหรับทำ Linear/Classification
+│   ├── orange_workflows/       # ไฟล์โปรเจกต์ .ows ของโปรแกรม Orange
+│   └── README.md               # สรุปเนื้อหาและแบบฝึกหัด Day 1
+├── DAY_2_Image_and_IoT/
+│   ├── sample_images/          # ภาพถ่ายตัวอย่างสำหรับฝึกทำ Image Embedding
+│   ├── notebooks/              # ไฟล์ Google Colab (.ipynb) สำหรับต่อสายเว็บแคม
+│   ├── esp32_code/             # โค้ดภาษา C++/Python สำหรับบอร์ด ESP32
+│   └── README.md               # สรุปเนื้อหาและแบบฝึกหัด Day 2
+└── LICENSE                     # สัญญาอนุญาตการใช้งานเนื้อหา
